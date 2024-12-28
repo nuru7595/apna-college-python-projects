@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-WorkSans bg-bg text-fg italic tracking-wider;
+}
+
+section {
+  @apply border-2 border-fg rounded-xl my-2;
+}
+
+header,
+footer {
+  @apply text-center py-2 my-2 border-2 border-fg;
+}
